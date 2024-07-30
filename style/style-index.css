@@ -1,0 +1,23 @@
+*{
+    background-color: whitesmoke;
+    margin:0vh;
+    padding: 0vh;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+}
+h1{
+    color: darkblue;
+}
+
+strong{
+    color:darkblue;
+}
+.corpo_secao{
+    display: flex;
+    
+}
