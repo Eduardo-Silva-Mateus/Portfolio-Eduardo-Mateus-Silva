@@ -5,15 +5,11 @@
     margin:0;
     padding: 0;
 }
-.cabecalho{
-    background-color: azure;
-    padding: 2% 0% 1% 15%;
-    
-}
 .cabecalho_menu{
     background-color: azure;
     display: flex;
-    gap: 50px;
+    gap: 40px;
+    border: 15px;
 }
 .cabecalho_menu_link{
     background-color: azure;
@@ -22,8 +18,22 @@
     font-weight: 400;
     color: black;
     text-decoration: none;
+    width: 150px;
+    border: 2px;
+    border-style: dashed;
+    border-color: darkblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
-
+.cabecalho_menu_link:hover{
+    background-color: rgb(213, 232, 232);
+    width: 150px;
+    border: 2px;
+    border-style: groove;
+    border-color: darkblue;
+    border-radius: 20px;
+}
 .rodape{
     color: black;
     background-color: azure;
