@@ -7,7 +7,7 @@
 }
 .cabecalho{
     background-color: azure;
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 1% 15%;
     
 }
 .cabecalho_menu{
@@ -21,6 +21,7 @@
     font-size: 20px;
     font-weight: 400;
     color: black;
+    text-decoration: none;
 }
 .corpo{
     box-sizing: border-box;

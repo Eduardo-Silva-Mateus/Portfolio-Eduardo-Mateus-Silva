@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    background-color: whitesmoke;
+    margin:0;
+    padding: 0;
+}
+.cabecalho{
+    background-color: azure;
+    padding: 2% 0% 1% 15%;
+    
+}
+.cabecalho_menu{
+    background-color: azure;
+    display: flex;
+    gap: 50px;
+}
+.cabecalho_menu_link{
+    background-color: azure;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+.rodape{
+    color: black;
+    background-color: azure;
+    padding: 24px;
+    text-align: center;
+  }
+  .corpo_secao_texto_rodape{
+      font-size: 10px;
+      font-family: "JetBrains Mono", monospace;
+      font-weight: 400;
+      background-color: azure;
+  }
